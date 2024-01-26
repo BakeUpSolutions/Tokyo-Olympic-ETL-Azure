@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "AthletesSink",
 						"type": "DatasetReference"
 					}
 				]
@@ -118,7 +118,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "CoachesSink",
 						"type": "DatasetReference"
 					}
 				]
@@ -182,7 +182,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "TeamsSink",
 						"type": "DatasetReference"
 					}
 				]
@@ -246,7 +246,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "MedalsSink",
 						"type": "DatasetReference"
 					}
 				]
@@ -310,7 +310,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS",
+						"referenceName": "GenderEntriesSink",
 						"type": "DatasetReference"
 					}
 				]
