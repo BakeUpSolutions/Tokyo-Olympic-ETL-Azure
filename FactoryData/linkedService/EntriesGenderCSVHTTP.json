@@ -1,0 +1,15 @@
+{
+	"name": "EntriesGenderCSVHTTP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/BakeUpSolutions/Tokyo-Olympic-ETL-Azure/raw/Benny-1-26-2024/data/EntriesGender.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "BakeUpSolutions",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDkwNjY0MjRCLTEyOUItNDFFMi05NzBELTA1NjM2MUNCN0QxM18yMWU4YWMwOS0zZGU1LTRhZmMtODgxOC0wMzk4Y2Y5MWEyMjQiDQp9"
+		}
+	}
+}
